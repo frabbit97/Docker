@@ -45,6 +45,7 @@ docker run -it \
 ```bash conda create -y -n unitree_lerobot python=3.10 ```
 
 aggiungere nel bashrc
+
 ```bash 
 # Source Conda's shell script so 'conda activate' funziona
 if [ -f "/opt/conda/etc/profile.d/conda.sh" ]; then
