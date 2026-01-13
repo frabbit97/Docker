@@ -42,7 +42,7 @@ docker run -it \
     /bin/bash
 ```
 ## 3️⃣ Conda e ambiente
-```bash conda create -y -n unitree_lerobot python=3.10 ```
+```conda create -y -n unitree_lerobot python=3.10 ```
 
 aggiungere nel bashrc
 
