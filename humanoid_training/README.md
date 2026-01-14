@@ -53,5 +53,13 @@ if [ -f "/opt/conda/etc/profile.d/conda.sh" ]; then
 fi
 
 # Attiva automaticamente l'ambiente unitree_lerobot
-conda activate unitree_lerobot```
+conda activate unitree_lerobot
+```
+## 4️⃣ Installazione unitreeLeRobot
 
+Una volta creato l'environment continuare a seguire la guida di LeRobot di unitree punto 1.[Unitree IL LeRobot](https://github.com/unitreerobotics/unitree_IL_lerobot)
+prima di installare leRobot, installare manualmente evdev (Nvidia Spark)
+
+```bash 
+$ sudo python3 -m pip install evdev
+```
