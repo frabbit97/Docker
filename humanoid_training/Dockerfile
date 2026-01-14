@@ -13,9 +13,6 @@ RUN apt-get update && apt-get install -y \
     xfce4-goodies \
     dbus-x11 \
     x11-xserver-utils \
-    build-essential \
-    linux-headers-$(uname -r) \
-    python3-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Install miniconda
