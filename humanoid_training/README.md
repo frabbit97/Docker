@@ -63,3 +63,10 @@ prima di installare leRobot, installare manualmente evdev (Nvidia Spark)
 ```bash 
 $ sudo python3 -m pip install evdev
 ```
+## 5️⃣ Download dataset
+
+Per scaricare il dataset è necessario prima di tutto aggiornare scipy in conda quindi entrare nell'ambiente conda ed eseguire questo comando
+
+```bash 
+pip install --force-reinstall --no-cache-dir scipy
+```
