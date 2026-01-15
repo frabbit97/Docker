@@ -55,7 +55,7 @@ fi
 # Attiva automaticamente l'ambiente unitree_lerobot
 conda activate unitree_lerobot
 ```
-## 4️⃣ Installazione unitreeLeRobot
+## 4️⃣ Installazione unitreeLeRobot (non per gr00t)
 
 Una volta creato l'environment continuare a seguire la guida di LeRobot di unitree punto 1.[Unitree IL LeRobot](https://github.com/unitreerobotics/unitree_IL_lerobot)
 prima di installare leRobot, installare manualmente evdev (Nvidia Spark)
@@ -70,3 +70,21 @@ Per scaricare il dataset è necessario prima di tutto aggiornare scipy in conda 
 ```bash 
 pip install --force-reinstall --no-cache-dir scipy
 ```
+## 6️⃣ Gr00t
+per gr00t abbiamo necessità di seguire questa guida [Gr00t](https://github.com/huggingface/lerobot/blob/main/docs/source/groot.mdx).
+
+
+Per questo comando ```pip install "torch>=2.2.1,<2.8.0" "torchvision>=0.21.0,<0.23.0" # --index-url https://download.pytorch.org/whl/cu1XX```
+ricordarsi di vedere che CUDA è montato sulla macchina.
+
+Sulle architerrure arm questo comando ```pip install "flash-attn>=2.5.9,<3.0.0" --no-build-isolation``` non funziona, sulle spark è possibile scaricare questo whl ed installarlo:
+
+```bash 
+pip install gdown 
+gdown "https://drive.google.com/uc?id=1UYfkEWSMoBxx8rp4vC-LfIrpu_vVlUx5"
+python3 -m pip install "file_name.whl"
+```
+
+
+
+
