@@ -84,7 +84,10 @@ pip install gdown
 gdown "https://drive.google.com/uc?id=1UYfkEWSMoBxx8rp4vC-LfIrpu_vVlUx5"
 python3 -m pip install "file_name.whl"
 ```
-
+oppure 
+```bash 
+MAX_JOBS=4 pip install flash-attn --no-build-isolation
+```
 
 
 
