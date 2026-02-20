@@ -78,7 +78,7 @@ Per questo comando ```pip install "torch>=2.2.1,<2.8.0" "torchvision>=0.21.0,<0.
 ricordarsi di vedere che CUDA è montato sulla macchina.
 
 Sulle architerrure arm questo comando ```pip install "flash-attn>=2.5.9,<3.0.0" --no-build-isolation``` non funziona, sulle spark è possibile scaricare questo whl ed installarlo:
-
+ATTENZIONE! se non hai architettura arm puoi trovare il tuo file qui: https://flashattn.dev/
 ```bash 
 pip install gdown 
 gdown "https://drive.google.com/uc?id=1UYfkEWSMoBxx8rp4vC-LfIrpu_vVlUx5"
